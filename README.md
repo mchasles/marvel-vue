@@ -1,24 +1,36 @@
 # marvel-vue
 
-> List of comic characters.
+This is a small project done in order to play with Vue.js.
+It requests Marvel API in order to display a list of 22 characters. It's very simple and have only 3 components :
+- App: the root component which bootstraps the app requesting the list of marvel characters
+- Loader: displayed while requesting the characters
+- MarvelCharactersList: which handles displaying the list of characters
 
-## Build Setup
+This project was scaffolded using vue-cli and its webpack templates.
+The only dependencies I added are vue-router and axios
 
+## Setup
+
+### Install dependencies
+After cloning the project, run:
 ``` bash
-# install dependencies
 npm install
+```
 
-# serve with hot reload at localhost:8080
+### Start the application
+To launch the application in development with hot reload, run
+```
 npm run dev
+```
 
-# build for production with minification
+To build the application for production with minification, run
+```
 npm run build
+```
 
-# run unit tests
-npm run unit
-
-# run all tests
-npm test
+To launch unit testing, run
+```
+npm run unit test
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
