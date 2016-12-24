@@ -9,7 +9,7 @@
 
 <script>
 export default {
-  name: 'hello',
+  name: 'marvelCharactersList',
   props: ['characters'],
   data () {
     return {
